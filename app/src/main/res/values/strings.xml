@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GitHub Playground</string>
+    <string name="count">%2$d K</string>
+    <string name="activity_main_try_again_button">Tentar novamente</string>
+    <string name="repository_item_avatar">Foto de perfil</string>
+    <string name="repository_item_star_count_icon">Ícone estrela</string>
+    <string name="repository_item_fork_count_icon">Ícone fork</string>
+</resources>
