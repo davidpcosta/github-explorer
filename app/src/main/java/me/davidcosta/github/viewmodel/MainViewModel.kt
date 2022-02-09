@@ -31,11 +31,11 @@ class MainViewModel @Inject constructor(
     private val _hasNextPageData: MutableLiveData<Boolean> =
         MutableLiveData()
 
-    private val hasNextPage: Boolean
+    internal val hasNextPage: Boolean
         get() = _hasNextPageData.value ?: true
 
     private var nextPage = 1
-    private var isLoading = false
+    internal var isLoading = false
 
     fun loadRepositories() {
         if (isLoading) return
